@@ -1,0 +1,39 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.toast-notification
+{
+    width: 300px;
+    /*background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);*/
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #dbdbdb;
+    color: #fff;
+    display: block;
+    margin: auto;
+    position: fixed;
+    bottom: 50px;
+    left: 40%;
+    right: 40%;
+    transition: all 0.5s ease;
+}
+
+.toast-notification p
+{
+    margin-bottom: 0;
+    padding: 5px 0 5px 0;
+}
+
+a.show-toast
+{
+    color: #fff !important;
+    background: #2196F3;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+}
